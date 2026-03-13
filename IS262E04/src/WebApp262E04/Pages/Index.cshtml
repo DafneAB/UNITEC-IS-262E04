@@ -1,0 +1,22 @@
+@page
+@{
+    // Archivo: ./src/WebApp262E04/Pages/Index.cshtml
+    
+     // 1. Declaración de variables
+     double lado= 7;
+     double diagonalMayor= 9;
+     double diagonalMenor= 3;
+     double altura=12;
+
+     // 2. Consumo de la Librería de Clases
+     double perimetro= Figura262E04.Perimetro(lado);
+     double area= Figura262E04.Area(diagonalMayor, diagonalMenor);
+     double volumen= Figura262E04.Volumen(area, altura);
+     
+//para superindices abrir "<sup>____" y cerrar con "_____</sup>"
+
+}
+
+El perímetro de un rombo de @(lado)cm por lado es @(perimetro)cm<br />
+El área de un rombo con diagonales @(diagonalMayor)cm y @(diagonalMenor)cm es @(area)cm<sup>2</sup> <br />
+El volumen del Prisma Romboidal con altura de @(altura)cm es @(volumen)cm<sup>3</sup> 
