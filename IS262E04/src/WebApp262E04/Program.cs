@@ -10,3 +10,6 @@ var app = builder.Build();
 app.MapRazorPages();
 
 app.Run();
+
+//OBLIGATORIA PARA PRUEBAS DE INTEGRACIÓN
+public partial calss Program { }
