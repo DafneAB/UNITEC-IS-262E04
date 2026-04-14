@@ -12,4 +12,4 @@ app.MapRazorPages();
 app.Run();
 
 //OBLIGATORIA PARA PRUEBAS DE INTEGRACIÓN
-public partial calss Program { }
+public partial class Program { }
